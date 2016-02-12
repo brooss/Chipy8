@@ -1,0 +1,8 @@
+[package]
+name = "chipy8"
+version = "0.1.0"
+authors = ["brooss"]
+
+[dependencies]
+rand = "0.3.13"
+sdl2 = "0.14.0"
