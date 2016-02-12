@@ -2,7 +2,8 @@
 A CHIP-8 emulator written in Rust using SDL2
 
 ![chipy8](chipy8.png)
-
+#requrements
+[rust-sdl](https://github.com/AngryLawyer/rust-sdl2) for your platform.
 #Compile
 ````
 cargo build --release
@@ -22,4 +23,9 @@ To compile and run with the included Tetris
 ````
 cargo run --release -- ./roms/TETRIS
 ````
+Or (on Windows)
+```
+cargo build --release
+target\chipy8.exe roms\TETRIS
+```
 Then change to the Tetris key mapping with F1 key.
