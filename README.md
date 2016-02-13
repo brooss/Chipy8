@@ -26,6 +26,6 @@ cargo run --release -- ./roms/TETRIS
 Or (on Windows)
 ```
 cargo build --release
-target\chipy8.exe roms\TETRIS
+target\release\chipy8.exe roms\TETRIS
 ```
 Then change to the Tetris key mapping with F1 key.
