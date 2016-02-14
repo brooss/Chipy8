@@ -2,7 +2,7 @@
 A CHIP-8 emulator written in Rust using SDL2
 
 ![chipy8](chipy8.png)
-#requrements
+#Requrements
 [rust-sdl](https://github.com/AngryLawyer/rust-sdl2) for your platform.
 #Compile
 ````
